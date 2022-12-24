@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* hero */
+
+.container{
+    width: 100%;
+    height: 400px;
+    background-image: url(./img/shanaad.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.container .content{
+    padding-top: 10rem;
+    justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
+.content h4{
+    font-size: 2.6rem;
+    color: black;
+    font-family: cursive;
+}
+.content h2 {
+    font-size: 2rem;
+    font-family: cursive;
+    color: wheat;
+    padding-bottom: 30px;
+}
+
+.content button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.content button:hover{
+    background-color: cadetblue;
+    transition: all .5s ease;
+    border-radius: 50px;
+
+}
+
+
+/* showcase */
+
+
+.showcase{
+    width: 100%;
+    margin: auto;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    height: fit-content;
+    gap: 50px;
+   
+}
+
+.boxes .box{
+    width: 300px;
+
+}
+
+.boxes .box .fa-pen-clip{
+    margin-left: 3rem;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 90%;
+}
+
+.boxes .box .title{
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+
+.boxes .box p {
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+.boxes .box .fa-book {
+    margin-left: 3rem;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 90%;
+}
+
+.boxes .box .fa-pen-to-square {
+    margin-left: 3rem;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 90%;
+}
+
+
+
+/* qeybta xigta */
+
+.video{
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    background-color: white;
+}
+
+
+.vidiobox{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.vidiobox h4{
+    font-size: 1.5rem;
+   padding: 20px;
+
+}
+
+.vidiobox .p{
+    font-size: 1rem;
+    padding-bottom: 37px;
+    
+}
+
+/* qeybtakale */
+
+.all{
+    width: 100%;
+    margin: auto;
+   height: fit-content;
+}
+
+.boxess{
+       width: 100%;
+       display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 80px;
+        height: fit-content;
+        gap: 40px;
+}
+
+.boxess .booxx{
+    width: 200px;
+}
+
+.boxess .booxx h4{
+    font-size: 1.5rem;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(189, 181, 174);
+   
+}
+
+.boxess .booxx p {
+    font-size: 1rem;
+    padding: 8px;
+
+}
+
+.boxess .booxx button {
+    font-size: 1rem;
+    padding: 3px;
+    border: none;
+    border:  1px solid rgb(204, 191, 191);
+    cursor: pointer;
+    background: rgb(187, 110, 110);
+    color: white;
+    
+}
+
+.boxess .booxx button:hover{
+    background: rgb(32, 20, 20);
+    transition: all .5s ease;
+}
+
+.boxess .booxx  {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgb(165, 99, 99);
+}
+
+.boox img{
+    border-radius: 10px;
+    border: 1px solid white;
+    object-fit: cover;
+    box-shadow: 4px 4px 5px rgb(168, 82, 82);
+}
+
+
+
+/* heard */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* All media queries */
+
+
+@media (max-width: 800px) {
+    nav .mainmenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: lightblue;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .mainmenu .closemenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openmenu {
+        display: block;
+    }
+
+    nav .mainmenu li a:hover {
+        background: none;
+        color: rgb(107, 54, 252);
+        font-size: 1.6rem;
+    }
+
+    .icons {
+        display: inline-block;
+        padding: 12px;
+
+    }
+
+
+  
+}
+
+@media (max-width: 1024px){
+    nav {
+            width: 990px;
+        }
+.container {
+        width: 990px;
+        height: 350px;
+        
+    }
+
+        .content button {
+            margin-top: 1rem;
+            width: 140px;
+            height: 40px;
+            font-size: 1.4rem;
+        }
+
+        .content h2 {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.showcase {
+    width: 980px;
+    height: 460px;
+ 
+}
+
+.boxes .box p {
+    font-size: 1rem;
+   
+}
+
+.video {
+    width: 980px;
+    height: fit-content;
+  
+}
+
+
+.vidiobox {
+    width: 980px;
+    
+}
+
+
+.vidiobox video{
+    width: 700px;
+}
+
+
+.boxess {
+    width: 100%;
+    margin: 4rem;
+    gap: 40px;
+}
+
+.heard {
+    width: 980px;
+    height: fit-content;
+}
+
+.heard .coontant {
+   width: 700px;
+  
+  
+}
+
+footer .coloms {
+    width: 980px;
+   
+}
+
+footer .coloms .col-1{
+
+   padding: 20px;
+
+}
+}
+
+@media (max-width: 812px){
+
+    nav{
+        width: 999px;
+    }
+
+    .container {
+    width: 999px;
+   
+}
+
+.showcase {
+    width: 990px;
+    height: 430px;
+  margin: 2rem;
+}
+
+.all {
+    width: 700px;
+  margin: 6rem;
+}
+
+
+}
+
+
+
+@media (max-width: 653px){
+
+.boxes {
+        width: 900px;
+       gap: 130px;
+       margin: 3rem;
+      background-color: white;
+     padding-top: 3rem;
+    }
+
+    .heard {
+    padding-bottom: 5rem;
+}
+  
+} 
+
